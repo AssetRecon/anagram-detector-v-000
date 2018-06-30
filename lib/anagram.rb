@@ -10,6 +10,7 @@ def match(array)
  array.detect do |words|
    if words.chars.sort.join == @word.chars.sort.join
      words
+   end
  end
 end
 
