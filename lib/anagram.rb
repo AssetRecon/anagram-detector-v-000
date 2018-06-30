@@ -8,7 +8,7 @@ end
 
 def match(array)
   anagram = []
- array.detect do |words|
+ array.each do |words|
    if words.chars.sort.join == @word.chars.sort.join
      anagram << words
    end
