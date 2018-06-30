@@ -9,6 +9,7 @@ end
 def match(array)
  array.detect do |words|
    words.sort == @word.sort
+ end
 end
 
 
